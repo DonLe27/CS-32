@@ -1,0 +1,3 @@
+﻿  Actor.cpp
+c:\users\donle\desktop\fordon\winter 2019\cs 32\project3\zombiedash-skeleton-windows\zombiedash\zombiedash\actor.cpp(40): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  ZombieDash.vcxproj -> C:\Users\donle\Desktop\fordon\Winter 2019\CS 32\project3\ZombieDash-skeleton-windows\ZombieDash\Debug\ZombieDash.exe
