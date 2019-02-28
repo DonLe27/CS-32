@@ -1,0 +1,8 @@
+﻿  Actor.cpp
+c:\users\donle\desktop\fordon\winter 2019\cs 32\project3\zombiedash-skeleton-windows\zombiedash\zombiedash\actor.cpp(170): warning C4101: 'yDest': unreferenced local variable
+c:\users\donle\desktop\fordon\winter 2019\cs 32\project3\zombiedash-skeleton-windows\zombiedash\zombiedash\actor.cpp(170): warning C4101: 'xDest': unreferenced local variable
+  StudentWorld.cpp
+c:\users\donle\desktop\fordon\winter 2019\cs 32\project3\zombiedash-skeleton-windows\zombiedash\zombiedash\studentworld.cpp(471): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+c:\users\donle\desktop\fordon\winter 2019\cs 32\project3\zombiedash-skeleton-windows\zombiedash\zombiedash\studentworld.cpp(443): warning C4715: 'StudentWorld::addActor': not all control paths return a value
+  ZombieDash.vcxproj -> C:\Users\donle\Desktop\fordon\Winter 2019\CS 32\project3\ZombieDash-skeleton-windows\ZombieDash\Debug\ZombieDash.exe
