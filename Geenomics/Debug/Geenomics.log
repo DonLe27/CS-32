@@ -1,0 +1,18 @@
+﻿  GenomeMatcher.cpp
+c:\users\donle\desktop\fordon\winter 2019\cs 32\project4\geenomics\geenomics\geenomics\trie.h(65): warning C4018: '<': signed/unsigned mismatch
+  c:\users\donle\desktop\fordon\winter 2019\cs 32\project4\geenomics\geenomics\geenomics\trie.h(61): note: while compiling class template member function 'void Trie<std::string>::printTrie(Trie<std::string>::Node *)'
+  c:\users\donle\desktop\fordon\winter 2019\cs 32\project4\geenomics\geenomics\geenomics\genomematcher.cpp(81): note: see reference to function template instantiation 'void Trie<std::string>::printTrie(Trie<std::string>::Node *)' being compiled
+  c:\users\donle\desktop\fordon\winter 2019\cs 32\project4\geenomics\geenomics\geenomics\genomematcher.cpp(17): note: see reference to class template instantiation 'Trie<std::string>' being compiled
+c:\users\donle\desktop\fordon\winter 2019\cs 32\project4\geenomics\geenomics\geenomics\trie.h(69): warning C4018: '<': signed/unsigned mismatch
+c:\users\donle\desktop\fordon\winter 2019\cs 32\project4\geenomics\geenomics\geenomics\trie.h(29): warning C4018: '<': signed/unsigned mismatch
+  c:\users\donle\desktop\fordon\winter 2019\cs 32\project4\geenomics\geenomics\geenomics\trie.h(18): note: while compiling class template member function 'void Trie<std::string>::insert(const std::string &,const ValueType &)'
+          with
+          [
+              ValueType=std::string
+          ]
+  c:\users\donle\desktop\fordon\winter 2019\cs 32\project4\geenomics\geenomics\geenomics\genomematcher.cpp(40): note: see reference to function template instantiation 'void Trie<std::string>::insert(const std::string &,const ValueType &)' being compiled
+          with
+          [
+              ValueType=std::string
+          ]
+  Geenomics.vcxproj -> C:\Users\donle\Desktop\fordon\Winter 2019\CS 32\project4\Geenomics\Geenomics\Debug\Geenomics.exe
