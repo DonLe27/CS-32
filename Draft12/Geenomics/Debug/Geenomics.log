@@ -1,0 +1,5 @@
+﻿  main.cpp
+c:\users\donle\desktop\fordon\winter 2019\cs 32\project4\geenomics\geenomics\geenomics\main.cpp(129): warning C4018: '<': signed/unsigned mismatch
+c:\users\donle\desktop\fordon\winter 2019\cs 32\project4\geenomics\geenomics\geenomics\main.cpp(138): warning C4018: '>': signed/unsigned mismatch
+c:\users\donle\desktop\fordon\winter 2019\cs 32\project4\geenomics\geenomics\geenomics\main.cpp(192): warning C4018: '<': signed/unsigned mismatch
+  Geenomics.vcxproj -> C:\Users\donle\Desktop\fordon\Winter 2019\CS 32\project4\Geenomics\Geenomics\Debug\Geenomics.exe
