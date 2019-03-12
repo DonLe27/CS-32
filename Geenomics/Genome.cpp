@@ -37,24 +37,24 @@ bool GenomeImpl::load(istream& genomeSource, vector<Genome>& genomes)
 	bool baseCheck = true; //Gets turned off by having bases after name
 	//Get first genome name
 	getline(genomeSource, s);
-	if (s[0] != '>') //The first line didn't contain a name
-		return false;
+	//if (s[0] != '>') //The first line didn't contain a name
+		//return false;
 	name = s.substr(1);
-	if (name.length() == 1) //First name only had > sign
-		return false;
+	//if (name.length() == 1) //First name only had > sign
+		//return false;
 	char c;
 	while (genomeSource.get(c)) //Get line from file until no more lnes
 	{
-		if (c == '\n')
-			return false;
+		//if (c == '\n')
+			//return false;
 		if (c != '>') //Continue adding until you get to next name
 		{
 			if (c == 'A' || c == 'C' || c == 'T' || c == 'G' || c == 'N')
 				sequence += (c);
 			else if (c == 'A' || c == 'C' || c == 'T' || c == 'G' || c == 'N')
 				sequence += toupper(c);
-			else //Wasn't a name and wasn't one of the wanted characters
-				return false;
+			//else //Wasn't a name and wasn't one of the wanted characters
+				//return false;
 			baseCheck = false;
 		}
 		else //You hit a name, so add new genome and reset variables.
@@ -62,8 +62,8 @@ bool GenomeImpl::load(istream& genomeSource, vector<Genome>& genomes)
 			genomes.push_back(Genome(name, sequence));
 			index++;
 			getline(genomeSource, s); //Get the rest of the line as name
-			if (s.size() == 0) //The name only had > sign
-				return false;
+			//if (s.size() == 0) //The name only had > sign
+			//	return false;
 			name = s;
 			sequence = "";
 			baseCheck = true;
@@ -73,8 +73,8 @@ bool GenomeImpl::load(istream& genomeSource, vector<Genome>& genomes)
 	{
 		genomes.push_back(Genome(name, sequence)); //Add the last genome
 	}
-	if (baseCheck)
-		return false;
+	//if (baseCheck)
+		//return false;
 	return true;
 }
 

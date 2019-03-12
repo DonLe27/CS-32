@@ -47,11 +47,10 @@ public:
 			}
 		}
 		//currNode now holds Node you want to add the value to
-		if ((std::find(currNode->values.begin(), currNode->values.end(), value) == currNode->values.end())) //If value not already there
-			currNode->values.push_back(value);
+		//if ((std::find(currNode->values.begin(), currNode->values.end(), value) == currNode->values.end())) //Duplicates are allowed!
+		currNode->values.push_back(value);
 	}
 	std::vector<ValueType> find(const std::string& key, bool exactMatchOnly) const;
-
 
       // C++11 syntax for preventing copying and assignment
    Trie(const Trie&) = delete;
@@ -150,7 +149,6 @@ std::vector<ValueType> Trie<ValueType>::findExact(const std::string& key, Node* 
 		}
 	}
 	return empty;
-	
 }
 
 template<typename ValueType>
